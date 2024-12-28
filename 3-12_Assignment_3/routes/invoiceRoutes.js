@@ -4,7 +4,9 @@ const router = express.Router();
  
 router.get('/', async (req, res) => { 
     try { 
+      console.log("Before query");
       const invoices = await Invoice.find(); 
+      console.log("after query");
       res.status(200).json({ success: true, data: invoices }); 
     } catch (err) { 
       res.status(500).json({ success: false, message: err.message 

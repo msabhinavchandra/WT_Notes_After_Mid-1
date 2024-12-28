@@ -16,5 +16,5 @@ const invoiceSchema = new mongoose.Schema({
 }); 
  
 const Invoice = mongoose.model('Invoice', invoiceSchema); 
- 
+ console.log("In the invoice.js");
 module.exports = Invoice; 
