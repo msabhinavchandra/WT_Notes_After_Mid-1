@@ -1,0 +1,16 @@
+{
+  "customerName": "Catelyn Stark",
+  "billingAddress": "123 Main St, Winterfell",
+  "items": [
+    {
+      "itemName": "Laptop",
+      "quantity": 1,
+      "price": 1000
+    },
+    {
+      "itemName": "Mouse",
+      "quantity": 2,
+      "price": 20
+    }
+  ]
+}
